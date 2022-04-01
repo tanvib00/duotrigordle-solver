@@ -7,7 +7,7 @@
 
 using namespace std;
 
-#define MAX_GUESSES 9
+#define MAX_GUESSES 15
 //enum Guess { black, yellow, green };
 // OR we could just do
 #define BLACK 0
@@ -58,6 +58,7 @@ int main() {
     while (solved == false && numGuesses < MAX_GUESSES) {
         // for now, just select random guess from list of possible next guesses?
         // eventually, figure out how to make the guess more smart
+        // cout << "GOAL WORD: " << goalWord << endl;
         cout << "Dataset size: " << dataset.size() << endl;
 
         us = chrono::duration_cast< chrono::microseconds >(
@@ -110,10 +111,13 @@ int main() {
         cout << "]" << endl;
 
         // reduce list of possible guesses based on current information (wordResult)
-        for (auto word_ptr = dataset.begin(); word_ptr != dataset.end(); word_ptr++) {
+        auto word_ptr = dataset.begin();
+        while (word_ptr != dataset.end()) {
             string word = *word_ptr;
             bool wordLetterMatches[5] = {false, false, false, false, false}; // refers to letters in 'word' being matched to feedback from guess
             bool wordValid = true;
+
+            // cout << "Word: " << word << " ... ";
 
             // check greens first
             for (int idx = 0; idx < guess.length(); idx++) {
@@ -127,7 +131,8 @@ int main() {
                     else {
                         // letter in word does not match the letter from the guess at this idx
                         // remove from possible set of words
-                        dataset.erase(word_ptr);
+                        // cout << "ERASED G: " << guessLetter << endl;
+                        word_ptr = dataset.erase(word_ptr);
                         //num_revoved++;
                         wordValid = false;
                         break;
@@ -146,6 +151,13 @@ int main() {
                     // goal: stall, guess: hello, word: swila, result: {b, b, y, g, b}
                     // TODO: can't be a match if the yellow matching character should have been green
                         // meaning if the yellow match is at the same index, this isn't good since we know it's not green
+
+                    if (guessLetter == word[idx]) {
+                        word_ptr = dataset.erase(word_ptr);
+                        wordValid = false;
+                        break;
+                    }
+
                     bool letterFound = false;
                     for (int i = 0; i < word.length(); i++) {
                         if (guessLetter == word[i] && wordLetterMatches[i] == false) { 
@@ -155,7 +167,8 @@ int main() {
                         }
                     }
                     if (!letterFound) {
-                        dataset.erase(word_ptr);
+                        // cout << "ERASED Y: " << guessLetter << endl;
+                        word_ptr = dataset.erase(word_ptr);
                         wordValid = false;
                         break;
                     }
@@ -176,7 +189,8 @@ int main() {
                     for (int i = 0; i < word.length(); i++) {
                         if (guessLetter == word[i] && wordLetterMatches[i] == false) {
                             // not valid
-                            dataset.erase(word_ptr);
+                            // cout << "ERASED B: " << guessLetter << endl;
+                            word_ptr = dataset.erase(word_ptr);
                             wordValid = false;
                             break;
                         }
@@ -185,6 +199,10 @@ int main() {
                 }
             }
 
+            if (wordValid) {
+                // cout << "Valid" << endl;
+                word_ptr++;
+            }
         } // end of candidate word for loop
         numGuesses++;
     }
