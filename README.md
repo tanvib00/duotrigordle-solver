@@ -76,3 +76,14 @@ Milestones:
 Schedule: ![Schedule Image](https://github.com/tanvib00/duotrigordle-solver/blob/main/ScheduleScreenshot.png)
 
 Link to detailed schedule google sheet: https://docs.google.com/spreadsheets/d/1NQESv9UieOrGbqEkrtgj2R3UJLaNaGAtiyOnydz4gqU/edit#gid=0
+
+# MILESTONE
+If the project is not proceeding according to plan, this milestone writeup should emphasize what has been causing problems, and provide an adjusted schedule and adjusted goals.
+
+Make sure your project schedule on your main project page is up to date with work completed so far, and well as with a revised plan of work for the coming weeks. As by this time you should have a good understanding of what is required to complete your project, I want to see a very detailed schedule for the coming weeks. I suggest breaking time down into half-week increments. Each increment should have at least one task, and for each task put a person's name on it.
+
+ * In one to two paragraphs, summarize the work that you have completed so far. 
+ * Describe how you are doing with respect to the goals and deliverables stated in your proposal. Do you still believe you will be able to produce all your deliverables? If not, why? In your milestone writeup we want an updated list of goals that you plan to hit for the poster session.
+ * What do you plan to show at the poster session? Will it be a demo? Will it be a graph?
+ * Do you have preliminary results at this time? If so, it would be great to included them in your milestone write-up.
+ * List the issues that concern you the most. Are there any remaining unknowns (things you simply don't know how to solve, or resource you don't know how to get) or is it just a matter of coding and doing the work?
