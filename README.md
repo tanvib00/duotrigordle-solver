@@ -73,17 +73,29 @@ Milestones:
 * 4/29: Report
 * 5/5: Presentation during final exam slot
 
-Schedule: ![Schedule Image](https://github.com/tanvib00/duotrigordle-solver/blob/main/ScheduleScreenshot.png)
+Schedule (updated for checkpoint): ![Schedule Image](https://github.com/tanvib00/duotrigordle-solver/blob/main/Post_MilestoneUpdatedSchedule.png)
 
 Link to detailed schedule google sheet: https://docs.google.com/spreadsheets/d/1NQESv9UieOrGbqEkrtgj2R3UJLaNaGAtiyOnydz4gqU/edit#gid=0
 
 # MILESTONE
-If the project is not proceeding according to plan, this milestone writeup should emphasize what has been causing problems, and provide an adjusted schedule and adjusted goals.
+Our original schedule, with grey boxes to indicate the work we have done, is shown below. Our updated schedule has been reuploaded above.
 
-Make sure your project schedule on your main project page is up to date with work completed so far, and well as with a revised plan of work for the coming weeks. As by this time you should have a good understanding of what is required to complete your project, I want to see a very detailed schedule for the coming weeks. I suggest breaking time down into half-week increments. Each increment should have at least one task, and for each task put a person's name on it.
+![Old Schedule Image](https://github.com/tanvib00/duotrigordle-solver/blob/main/InitialScheduleProgress.png)
 
  * In one to two paragraphs, summarize the work that you have completed so far. 
+
+Thus far, we have implemented a correct and consistent single Wordle solver. The program selects a random goal word from a dictionary of 5-letter-words, starts with a random guess from that dictionary, and guesses the goal word within 5 guesses on average. We have observed rare trial runs that take up to 9 guesses to correctly guess the goal word. The program is also capable of providing Wordle-style feedback, with values representing green, yellow, and black squares returned to the solver code following each guess. This feedback is incorporated into the solver, as it informs the solver's next guess.
+
  * Describe how you are doing with respect to the goals and deliverables stated in your proposal. Do you still believe you will be able to produce all your deliverables? If not, why? In your milestone writeup we want an updated list of goals that you plan to hit for the poster session.
+
+We have not yet implemented functionality for the 32 simultaneous games of Wordle, which we had hoped to have done by this point, but this is largely due to the campus-wide break for Carnival over the last week. We will still be able to produce our deliverables, as we have a clear idea of the tasks to be completed for the project. Our goals for the final are still in line with the 100% goal scenario described in our project proposal above. However, based on feedback to our project proposal, we have a further goal of reporting more thoroughly on the different parallelization strategies we experiment with and the effects they have on our solver in our final report.
+
  * What do you plan to show at the poster session? Will it be a demo? Will it be a graph?
- * Do you have preliminary results at this time? If so, it would be great to included them in your milestone write-up.
+
+We plan to briefly demo our solver, which would demonstrate our sequential and parallelized solver's performance and time. We would also display graphs of our solvers' performance and solving time, based on trial runs held beforehand. We will also show in these graphs how speedup scales with the number of processing elements we test performance with.
+
+ * We do not have preliminary results for our parallelized Duotrigordle at this time.
+ 
  * List the issues that concern you the most. Are there any remaining unknowns (things you simply don't know how to solve, or resource you don't know how to get) or is it just a matter of coding and doing the work?
+
+As of now, it is just a matter of doing the work to get back on track to complete our project on time! 
