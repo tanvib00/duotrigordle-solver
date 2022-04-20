@@ -23,13 +23,13 @@ auto select_random(const S &s, size_t n) {
 }
 
 int main() {
-    
+
     /* Set up the game */
     // read in word data set
     set<string> dataset;
 
     char filename[] = "../words.dat.txt";
-    FILE *data_file = fopen(filename, "r");
+    fopen(filename, "r");
     string line;
     ifstream input_file(filename);
     if (!input_file.is_open()) {
@@ -41,7 +41,7 @@ int main() {
     while (getline(input_file, line)){
         dataset.insert(line);
     }
-    
+
     // goalWord = select random word from data set
     chrono::microseconds us = chrono::duration_cast< chrono::microseconds >(
     chrono::system_clock::now().time_since_epoch());
@@ -68,7 +68,7 @@ int main() {
         string guess = *select_random(dataset, r);
         cout << "Guess " << numGuesses << ": " << guess << endl;
 
-        // get feedback from game (compare guess to goalWord)        
+        // get feedback from game (compare guess to goalWord)
         uint correct = 0;
         int wordResult[5] = {BLACK, BLACK, BLACK, BLACK, BLACK}; // each has value of either 0,1,2 :: black,yellow,green
         bool goalLetterMatches[5] = {false, false, false, false, false};
@@ -83,13 +83,13 @@ int main() {
                 wordResult[i] = GREEN;
             }
         }
-        
+
         if (correct == 5) {
             solved = true;
             break;
         }
-        
-        // check for yellows 
+
+        // check for yellows
         for (auto i = 0; i < guess.length(); i++) {
             if (wordResult[i] == GREEN) continue;
 
@@ -140,7 +140,7 @@ int main() {
                 }
             }
             if (!wordValid) continue;
-            
+
             // check yellows
             for (int idx = 0; idx < guess.length(); idx++) {
                 char guessLetter = guess[idx];
@@ -160,7 +160,7 @@ int main() {
 
                     bool letterFound = false;
                     for (int i = 0; i < word.length(); i++) {
-                        if (guessLetter == word[i] && wordLetterMatches[i] == false) { 
+                        if (guessLetter == word[i] && wordLetterMatches[i] == false) {
                             wordLetterMatches[i] = true;
                             letterFound = true;
                             break;
@@ -175,7 +175,7 @@ int main() {
                 }
             }
             if (!wordValid) continue;
-            
+
             // check blacks
             for (int idx = 0; idx < guess.length(); idx++) {
                 char guessLetter = guess[idx];
