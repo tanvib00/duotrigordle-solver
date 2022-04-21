@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++14 -Wall -g -Werror
+CFLAGS = -std=c++1y -g
 
 wordleSolver.out: wordleSolver.o
 	$(CC) $(CFLAGS) -o wordleSolver.out wordleSolver.o
