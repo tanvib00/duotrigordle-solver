@@ -1,0 +1,1876 @@
+GOAL WORD 0: babes
+GOAL WORD 1: fouls
+GOAL WORD 2: hoses
+GOAL WORD 3: pyxie
+GOAL WORD 4: unsay
+GOAL WORD 5: youth
+GOAL WORD 6: poser
+GOAL WORD 7: stout
+GOAL WORD 8: thong
+GOAL WORD 9: meany
+GOAL WORD 10: edger
+GOAL WORD 11: flees
+GOAL WORD 12: tasty
+GOAL WORD 13: tract
+GOAL WORD 14: owest
+GOAL WORD 15: axial
+GOAL WORD 16: hewed
+GOAL WORD 17: karma
+GOAL WORD 18: crows
+GOAL WORD 19: pagan
+GOAL WORD 20: peers
+GOAL WORD 21: rusty
+GOAL WORD 22: pecks
+GOAL WORD 23: sofas
+GOAL WORD 24: seder
+GOAL WORD 25: spend
+GOAL WORD 26: buggy
+GOAL WORD 27: recap
+GOAL WORD 28: golem
+GOAL WORD 29: vowed
+GOAL WORD 30: essay
+GOAL WORD 31: quals
+dsize 0: 5757, candidate word: tares, score: 2.89352
+dsize 1: 5757, candidate word: tares, score: 2.89352
+dsize 2: 5757, candidate word: tares, score: 2.89352
+dsize 3: 5757, candidate word: tares, score: 2.89352
+dsize 4: 5757, candidate word: tares, score: 2.89352
+dsize 5: 5757, candidate word: tares, score: 2.89352
+dsize 6: 5757, candidate word: tares, score: 2.89352
+dsize 7: 5757, candidate word: tares, score: 2.89352
+dsize 8: 5757, candidate word: tares, score: 2.89352
+dsize 9: 5757, candidate word: tares, score: 2.89352
+dsize 10: 5757, candidate word: tares, score: 2.89352
+dsize 11: 5757, candidate word: tares, score: 2.89352
+dsize 12: 5757, candidate word: tares, score: 2.89352
+dsize 13: 5757, candidate word: tares, score: 2.89352
+dsize 14: 5757, candidate word: tares, score: 2.89352
+dsize 15: 5757, candidate word: tares, score: 2.89352
+dsize 16: 5757, candidate word: tares, score: 2.89352
+dsize 17: 5757, candidate word: tares, score: 2.89352
+dsize 18: 5757, candidate word: tares, score: 2.89352
+dsize 19: 5757, candidate word: tares, score: 2.89352
+dsize 20: 5757, candidate word: tares, score: 2.89352
+dsize 21: 5757, candidate word: tares, score: 2.89352
+dsize 22: 5757, candidate word: tares, score: 2.89352
+dsize 23: 5757, candidate word: tares, score: 2.89352
+dsize 24: 5757, candidate word: tares, score: 2.89352
+dsize 25: 5757, candidate word: tares, score: 2.89352
+dsize 26: 5757, candidate word: tares, score: 2.89352
+dsize 27: 5757, candidate word: tares, score: 2.89352
+dsize 28: 5757, candidate word: tares, score: 2.89352
+dsize 29: 5757, candidate word: tares, score: 2.89352
+dsize 30: 5757, candidate word: tares, score: 2.89352
+dsize 31: 5757, candidate word: tares, score: 2.89352
+NEW GUESS! select_guess took: 0.049615 us
+guess 1: tares
+i = 0, get_feedback took: 0.000012 us
+i = 0, reduce_dataset took: 0.000715 us
+i = 1, get_feedback took: 0.000002 us
+i = 1, reduce_dataset took: 0.000868 us
+i = 2, get_feedback took: 0.000002 us
+i = 2, reduce_dataset took: 0.000751 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.001029 us
+i = 4, get_feedback took: 0.000001 us
+i = 4, reduce_dataset took: 0.000926 us
+i = 5, get_feedback took: 0.000001 us
+i = 5, reduce_dataset took: 0.000956 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000744 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000911 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000652 us
+i = 9, get_feedback took: 0.000001 us
+i = 9, reduce_dataset took: 0.000943 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000787 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000742 us
+i = 12, get_feedback took: 0.000001 us
+i = 12, reduce_dataset took: 0.000608 us
+i = 13, get_feedback took: 0.000002 us
+i = 13, reduce_dataset took: 0.000632 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000908 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000983 us
+i = 16, get_feedback took: 0.000002 us
+i = 16, reduce_dataset took: 0.000827 us
+i = 17, get_feedback took: 0.000002 us
+i = 17, reduce_dataset took: 0.000667 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000811 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000753 us
+i = 20, get_feedback took: 0.000002 us
+i = 20, reduce_dataset took: 0.000791 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000873 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000822 us
+i = 23, get_feedback took: 0.000002 us
+i = 23, reduce_dataset took: 0.000812 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000740 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000955 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.001225 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000917 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000814 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000813 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000906 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000800 us
+dsize 0: 77, candidate word: laves, score: 6.79221
+dsize 1: 367, candidate word: lions, score: 4.53678
+dsize 2: 162, candidate word: lines, score: 5.59877
+dsize 3: 239, candidate word: oldie, score: 3.51464
+dsize 4: 73, candidate word: slash, score: 4.84932
+dsize 5: 121, candidate word: litho, score: 3.7686
+dsize 6: 27, candidate word: shier, score: 6.66667
+dsize 7: 74, candidate word: stout, score: 4.75676
+dsize 8: 40, candidate word: twiny, score: 4.625
+dsize 9: 122, candidate word: plane, score: 4.31967
+dsize 10: 182, candidate word: cider, score: 5.37912
+dsize 11: 162, candidate word: lines, score: 5.59877
+dsize 12: 2, candidate word: tansy, score: 9
+dsize 13: 10, candidate word: trail, score: 7.5
+dsize 14: 44, candidate word: spelt, score: 5.27273
+dsize 15: 191, candidate word: along, score: 3.38743
+dsize 16: 205, candidate word: lowed, score: 5.00488
+dsize 17: 33, candidate word: carpy, score: 5.9697
+dsize 18: 66, candidate word: drops, score: 5.39394
+dsize 19: 141, candidate word: manly, score: 4.65248
+dsize 20: 40, candidate word: peers, score: 6.5
+dsize 21: 16, candidate word: short, score: 6.25
+dsize 22: 124, candidate word: peels, score: 5.51613
+dsize 23: 123, candidate word: coals, score: 5.27642
+dsize 24: 27, candidate word: shier, score: 6.66667
+dsize 25: 92, candidate word: souse, score: 4.84783
+dsize 26: 415, candidate word: doily, score: 3.23133
+dsize 27: 65, candidate word: brace, score: 4.93846
+dsize 28: 205, candidate word: lowed, score: 5.00488
+dsize 29: 205, candidate word: lowed, score: 5.00488
+dsize 30: 37, candidate word: shale, score: 5.97297
+dsize 31: 123, candidate word: coals, score: 5.27642
+NEW GUESS! select_guess took: 0.002090 us
+guess 2: tansy
+i = 0, get_feedback took: 0.000006 us
+i = 0, reduce_dataset took: 0.000036 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000143 us
+i = 2, get_feedback took: 0.000001 us
+i = 2, reduce_dataset took: 0.000043 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000042 us
+i = 4, get_feedback took: 0.000001 us
+i = 4, reduce_dataset took: 0.000011 us
+i = 5, get_feedback took: 0.000001 us
+i = 5, reduce_dataset took: 0.000024 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000007 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000018 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000009 us
+i = 9, get_feedback took: 0.000001 us
+i = 9, reduce_dataset took: 0.000017 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000047 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000042 us
+i = 12, get_feedback took: 0.000001 us
+i = 12, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000003 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000008 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000048 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000053 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000009 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000017 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000027 us
+i = 20, get_feedback took: 0.000000 us
+i = 20, reduce_dataset took: 0.000011 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000003 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000033 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000031 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000008 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000018 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000076 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000018 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000052 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000052 us
+i = 30, get_feedback took: 0.000000 us
+i = 30, reduce_dataset took: 0.000006 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000065 us
+dsize 0: 66, candidate word: gales, score: 6.89394
+dsize 1: 256, candidate word: coils, score: 4.78516
+dsize 2: 128, candidate word: doles, score: 5.69531
+dsize 3: 5, candidate word: cycle, score: 5.4
+dsize 4: 2, candidate word: snaky, score: 8
+dsize 5: 2, candidate word: youth, score: 6.5
+dsize 6: 23, candidate word: shier, score: 6.69565
+dsize 7: 34, candidate word: stout, score: 5.41176
+dsize 8: 6, candidate word: think, score: 7.33333
+dsize 9: 1, candidate word: meany, score: 10
+dsize 10: 147, candidate word: cider, score: 5.48299
+dsize 11: 128, candidate word: doles, score: 5.69531
+dsize 12: 1, candidate word: tasty, score: 10
+dsize 13: 9, candidate word: trail, score: 7.44444
+dsize 14: 15, candidate word: diest, score: 6.86667
+dsize 15: 107, candidate word: folia, score: 3.64486
+dsize 16: 127, candidate word: loped, score: 5.41732
+dsize 17: 17, candidate word: carom, score: 6
+dsize 18: 55, candidate word: drops, score: 5.50909
+dsize 19: 16, candidate word: capon, score: 5.5
+dsize 20: 30, candidate word: peers, score: 6.66667
+dsize 21: 2, candidate word: rusty, score: 7.5
+dsize 22: 87, candidate word: peels, score: 5.78161
+dsize 23: 83, candidate word: coals, score: 5.44578
+dsize 24: 23, candidate word: shier, score: 6.69565
+dsize 25: 14, candidate word: spine, score: 6.78571
+dsize 26: 135, candidate word: godly, score: 4.4963
+dsize 27: 54, candidate word: brace, score: 5.12963
+dsize 28: 127, candidate word: loped, score: 5.41732
+dsize 29: 127, candidate word: loped, score: 5.41732
+dsize 30: 2, candidate word: seamy, score: 8
+dsize 31: 83, candidate word: coals, score: 5.44578
+NEW GUESS! select_guess took: 0.000742 us
+guess 3: meany
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000033 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000075 us
+i = 2, get_feedback took: 0.000001 us
+i = 2, reduce_dataset took: 0.000031 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000002 us
+i = 4, get_feedback took: 0.000001 us
+i = 4, reduce_dataset took: 0.000001 us
+i = 5, get_feedback took: 0.000001 us
+i = 5, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000005 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000009 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000002 us
+i = 9, get_feedback took: 0.000001 us
+i = 9, reduce_dataset took: 0.000001 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000034 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000030 us
+i = 12, get_feedback took: 0.000001 us
+i = 12, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000003 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000004 us
+i = 15, get_feedback took: 0.000000 us
+i = 15, reduce_dataset took: 0.000025 us
+i = 16, get_feedback took: 0.000000 us
+i = 16, reduce_dataset took: 0.000019 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000004 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000017 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000004 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000006 us
+i = 21, get_feedback took: 0.000000 us
+i = 21, reduce_dataset took: 0.000002 us
+i = 22, get_feedback took: 0.000000 us
+i = 22, reduce_dataset took: 0.000018 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000016 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000004 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000003 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000031 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000009 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000022 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000029 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000017 us
+dsize 0: 57, candidate word: gales, score: 6.94737
+dsize 1: 203, candidate word: coils, score: 4.99507
+dsize 2: 105, candidate word: piles, score: 5.75238
+dsize 3: 4, candidate word: pyxie, score: 5.5
+dsize 4: 1, candidate word: unsay, score: 10
+dsize 5: 2, candidate word: youth, score: 6.5
+dsize 6: 17, candidate word: shier, score: 6.88235
+dsize 7: 31, candidate word: stout, score: 5.48387
+dsize 8: 5, candidate word: think, score: 8
+dsize 10: 118, candidate word: cider, score: 5.5678
+dsize 11: 105, candidate word: piles, score: 5.75238
+dsize 12: 1, candidate word: tasty, score: 10
+dsize 13: 6, candidate word: trail, score: 7.83333
+dsize 14: 10, candidate word: goest, score: 6.8
+dsize 15: 63, candidate word: folia, score: 3.92063
+dsize 16: 14, candidate word: hewed, score: 6.14286
+dsize 17: 3, candidate word: carom, score: 7.33333
+dsize 18: 47, candidate word: drops, score: 5.48936
+dsize 19: 13, candidate word: capon, score: 5.84615
+dsize 20: 13, candidate word: leers, score: 7.46154
+dsize 21: 2, candidate word: rusty, score: 7.5
+dsize 22: 50, candidate word: kelps, score: 6.4
+dsize 23: 23, candidate word: picas, score: 5.52174
+dsize 24: 4, candidate word: sewer, score: 8.25
+dsize 25: 7, candidate word: shine, score: 7.42857
+dsize 26: 105, candidate word: godly, score: 4.75238
+dsize 27: 10, candidate word: rebar, score: 6.7
+dsize 28: 12, candidate word: imbed, score: 6
+dsize 29: 88, candidate word: loped, score: 5.60227
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 43, candidate word: clads, score: 6.04651
+NEW GUESS! select_guess took: 0.000533 us
+guess 4: unsay
+i = 0, get_feedback took: 0.000005 us
+i = 0, reduce_dataset took: 0.000030 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000052 us
+i = 2, get_feedback took: 0.000001 us
+i = 2, reduce_dataset took: 0.000016 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000002 us
+i = 4, get_feedback took: 0.000000 us
+i = 4, reduce_dataset took: 0.000001 us
+i = 5, get_feedback took: 0.000001 us
+i = 5, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000004 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000006 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000002 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000029 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000026 us
+i = 12, get_feedback took: 0.000000 us
+i = 12, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000002 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000003 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000012 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000004 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000012 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000003 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000004 us
+i = 21, get_feedback took: 0.000000 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000013 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000005 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000002 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000002 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000020 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000003 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000006 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000038 us
+i = 30, get_feedback took: 0.000000 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000050 us
+dsize 0: 50, candidate word: gales, score: 6.86
+dsize 1: 52, candidate word: bulks, score: 5.51923
+dsize 2: 7, candidate word: doses, score: 7.71429
+dsize 3: 4, candidate word: cycle, score: 5.5
+dsize 5: 2, candidate word: youth, score: 6.5
+dsize 6: 5, candidate word: doser, score: 7.8
+dsize 7: 8, candidate word: stout, score: 7.125
+dsize 8: 4, candidate word: think, score: 8
+dsize 10: 101, candidate word: cider, score: 5.70297
+dsize 11: 77, candidate word: piles, score: 5.93506
+dsize 12: 1, candidate word: tasty, score: 10
+dsize 13: 6, candidate word: trail, score: 7.83333
+dsize 14: 8, candidate word: diest, score: 7
+dsize 15: 14, candidate word: focal, score: 5.64286
+dsize 16: 13, candidate word: hewed, score: 6.15385
+dsize 17: 2, candidate word: carom, score: 8
+dsize 18: 33, candidate word: prods, score: 5.93939
+dsize 19: 5, candidate word: pavan, score: 7.4
+dsize 20: 12, candidate word: leers, score: 7.66667
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 46, candidate word: peels, score: 6.52174
+dsize 23: 14, candidate word: colas, score: 6.21429
+dsize 24: 3, candidate word: sewer, score: 8.66667
+dsize 25: 7, candidate word: shine, score: 7.42857
+dsize 26: 30, candidate word: bulky, score: 5.83333
+dsize 27: 8, candidate word: rebar, score: 6.875
+dsize 28: 9, candidate word: limed, score: 6.22222
+dsize 29: 78, candidate word: loped, score: 5.67949
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 5, candidate word: quals, score: 8.4
+NEW GUESS! select_guess took: 0.000379 us
+guess 5: tasty
+i = 0, get_feedback took: 0.000023 us
+i = 0, reduce_dataset took: 0.000013 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000043 us
+i = 2, get_feedback took: 0.000001 us
+i = 2, reduce_dataset took: 0.000003 us
+i = 3, get_feedback took: 0.000000 us
+i = 3, reduce_dataset took: 0.000002 us
+i = 5, get_feedback took: 0.000001 us
+i = 5, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000002 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000003 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000001 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000040 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000020 us
+i = 12, get_feedback took: 0.000001 us
+i = 12, reduce_dataset took: 0.000000 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000002 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000003 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000004 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000004 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000009 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000002 us
+i = 20, get_feedback took: 0.000000 us
+i = 20, reduce_dataset took: 0.000004 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000000 us
+i = 22, reduce_dataset took: 0.000012 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000005 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000002 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000008 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000002 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000003 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000020 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000002 us
+dsize 0: 50, candidate word: gales, score: 6.86
+dsize 1: 52, candidate word: bulks, score: 5.51923
+dsize 2: 7, candidate word: poses, score: 7.71429
+dsize 3: 4, candidate word: cycle, score: 5.5
+dsize 5: 1, candidate word: youth, score: 10
+dsize 6: 5, candidate word: loser, score: 7.8
+dsize 7: 1, candidate word: stout, score: 10
+dsize 8: 4, candidate word: think, score: 8
+dsize 10: 101, candidate word: cider, score: 5.70297
+dsize 11: 77, candidate word: piles, score: 5.93506
+dsize 13: 2, candidate word: tract, score: 9
+dsize 14: 8, candidate word: diest, score: 7
+dsize 15: 14, candidate word: focal, score: 5.64286
+dsize 16: 13, candidate word: hewed, score: 6.15385
+dsize 17: 2, candidate word: carom, score: 8
+dsize 18: 33, candidate word: drops, score: 5.93939
+dsize 19: 5, candidate word: pavan, score: 7.4
+dsize 20: 12, candidate word: leers, score: 7.66667
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 46, candidate word: peels, score: 6.52174
+dsize 23: 14, candidate word: codas, score: 6.21429
+dsize 24: 3, candidate word: sewer, score: 8.66667
+dsize 25: 7, candidate word: shine, score: 7.42857
+dsize 26: 30, candidate word: bulky, score: 5.83333
+dsize 27: 8, candidate word: rebar, score: 6.875
+dsize 28: 9, candidate word: limed, score: 6.22222
+dsize 29: 78, candidate word: loped, score: 5.67949
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 5, candidate word: quals, score: 8.4
+NEW GUESS! select_guess took: 0.000356 us
+guess 6: youth
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000014 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000023 us
+i = 2, get_feedback took: 0.000001 us
+i = 2, reduce_dataset took: 0.000002 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000002 us
+i = 5, get_feedback took: 0.000001 us
+i = 5, reduce_dataset took: 0.000000 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000002 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000001 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000001 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000038 us
+i = 11, get_feedback took: 0.000000 us
+i = 11, reduce_dataset took: 0.000019 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000002 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000004 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000003 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000007 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000002 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000003 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000012 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000003 us
+i = 24, get_feedback took: 0.000000 us
+i = 24, reduce_dataset took: 0.000002 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000002 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000007 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000003 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000002 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000015 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000000 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000002 us
+dsize 0: 46, candidate word: gales, score: 6.8913
+dsize 1: 6, candidate word: fouls, score: 7.66667
+dsize 2: 1, candidate word: hoses, score: 10
+dsize 3: 2, candidate word: pyxie, score: 7
+dsize 6: 3, candidate word: loser, score: 8.66667
+dsize 7: 1, candidate word: stout, score: 10
+dsize 8: 1, candidate word: thong, score: 10
+dsize 10: 58, candidate word: cider, score: 6.27586
+dsize 11: 40, candidate word: lives, score: 6.7
+dsize 13: 2, candidate word: tract, score: 9
+dsize 14: 1, candidate word: owest, score: 10
+dsize 15: 5, candidate word: lilac, score: 6.6
+dsize 16: 2, candidate word: hewed, score: 9
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 14, candidate word: prows, score: 7.35714
+dsize 19: 5, candidate word: pavan, score: 7.4
+dsize 20: 11, candidate word: leers, score: 7.81818
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 41, candidate word: kelps, score: 6.56098
+dsize 23: 6, candidate word: codas, score: 8.16667
+dsize 24: 3, candidate word: sewer, score: 8.66667
+dsize 25: 4, candidate word: spine, score: 8
+dsize 26: 22, candidate word: bulgy, score: 6
+dsize 27: 7, candidate word: rebar, score: 6.85714
+dsize 28: 2, candidate word: domed, score: 7.5
+dsize 29: 33, candidate word: lowed, score: 7
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 5, candidate word: quals, score: 8.4
+NEW GUESS! select_guess took: 0.000273 us
+guess 7: hoses
+i = 0, get_feedback took: 0.000006 us
+i = 0, reduce_dataset took: 0.000026 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000003 us
+i = 2, get_feedback took: 0.000000 us
+i = 2, reduce_dataset took: 0.000001 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000002 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000001 us
+i = 8, get_feedback took: 0.000000 us
+i = 8, reduce_dataset took: 0.000001 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000028 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000009 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000000 us
+i = 15, reduce_dataset took: 0.000002 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000004 us
+i = 19, get_feedback took: 0.000000 us
+i = 19, reduce_dataset took: 0.000002 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000003 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000009 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000002 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000002 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000006 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000002 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000007 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000002 us
+dsize 0: 40, candidate word: wales, score: 6.8
+dsize 1: 4, candidate word: fouls, score: 7.5
+dsize 3: 2, candidate word: cycle, score: 7
+dsize 6: 3, candidate word: doser, score: 8.66667
+dsize 7: 1, candidate word: stout, score: 10
+dsize 8: 1, candidate word: thong, score: 10
+dsize 10: 58, candidate word: cider, score: 6.27586
+dsize 11: 34, candidate word: lives, score: 6.70588
+dsize 13: 2, candidate word: tract, score: 9
+dsize 14: 1, candidate word: owest, score: 10
+dsize 15: 5, candidate word: iliac, score: 6.6
+dsize 16: 2, candidate word: hewed, score: 9
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 14, candidate word: prows, score: 7.35714
+dsize 19: 5, candidate word: pavan, score: 7.4
+dsize 20: 10, candidate word: leers, score: 7.7
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 36, candidate word: kelps, score: 6.47222
+dsize 23: 2, candidate word: sofas, score: 9
+dsize 24: 3, candidate word: sever, score: 8.66667
+dsize 25: 4, candidate word: spine, score: 8
+dsize 26: 22, candidate word: bulgy, score: 6
+dsize 27: 7, candidate word: rebar, score: 6.85714
+dsize 28: 2, candidate word: golem, score: 7.5
+dsize 29: 33, candidate word: lowed, score: 7
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 5, candidate word: quals, score: 8.4
+NEW GUESS! select_guess took: 0.000257 us
+guess 8: stout
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000011 us
+i = 1, get_feedback took: 0.000019 us
+i = 1, reduce_dataset took: 0.000002 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000001 us
+i = 7, get_feedback took: 0.000001 us
+i = 7, reduce_dataset took: 0.000001 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000001 us
+i = 10, get_feedback took: 0.000000 us
+i = 10, reduce_dataset took: 0.000029 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000009 us
+i = 13, get_feedback took: 0.000000 us
+i = 13, reduce_dataset took: 0.000002 us
+i = 14, get_feedback took: 0.000000 us
+i = 14, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000002 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000000 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000004 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000002 us
+i = 20, get_feedback took: 0.000000 us
+i = 20, reduce_dataset took: 0.000004 us
+i = 21, get_feedback took: 0.000000 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000009 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000002 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000002 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000006 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000002 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000008 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000002 us
+dsize 0: 40, candidate word: gales, score: 6.8
+dsize 1: 4, candidate word: fouls, score: 7.5
+dsize 3: 2, candidate word: pyxie, score: 7
+dsize 6: 3, candidate word: poser, score: 8.66667
+dsize 8: 1, candidate word: thong, score: 10
+dsize 10: 58, candidate word: cider, score: 6.27586
+dsize 11: 34, candidate word: lives, score: 6.70588
+dsize 13: 2, candidate word: trait, score: 9
+dsize 14: 1, candidate word: owest, score: 10
+dsize 15: 5, candidate word: iliac, score: 6.6
+dsize 16: 2, candidate word: hexed, score: 9
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 14, candidate word: prows, score: 7.35714
+dsize 19: 5, candidate word: pavan, score: 7.4
+dsize 20: 10, candidate word: leers, score: 7.7
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 36, candidate word: kelps, score: 6.47222
+dsize 23: 2, candidate word: sodas, score: 9
+dsize 24: 3, candidate word: sewer, score: 8.66667
+dsize 25: 4, candidate word: spine, score: 8
+dsize 26: 22, candidate word: bulgy, score: 6
+dsize 27: 7, candidate word: rebar, score: 6.85714
+dsize 28: 2, candidate word: domed, score: 7.5
+dsize 29: 30, candidate word: lowed, score: 6.96667
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 4, candidate word: quals, score: 8.5
+NEW GUESS! select_guess took: 0.000280 us
+guess 9: thong
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000011 us
+i = 1, get_feedback took: 0.000017 us
+i = 1, reduce_dataset took: 0.000001 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000002 us
+i = 6, get_feedback took: 0.000000 us
+i = 6, reduce_dataset took: 0.000002 us
+i = 8, get_feedback took: 0.000001 us
+i = 8, reduce_dataset took: 0.000000 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000025 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000009 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000001 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000011 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000004 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000002 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000003 us
+i = 21, get_feedback took: 0.000000 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000010 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000000 us
+i = 24, reduce_dataset took: 0.000002 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000005 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000002 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000008 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000000 us
+i = 31, reduce_dataset took: 0.000002 us
+dsize 0: 33, candidate word: lakes, score: 6.90909
+dsize 1: 4, candidate word: poufs, score: 7.5
+dsize 3: 2, candidate word: cycle, score: 7
+dsize 6: 3, candidate word: loser, score: 8.66667
+dsize 10: 7, candidate word: giver, score: 7
+dsize 11: 30, candidate word: files, score: 6.8
+dsize 13: 2, candidate word: trait, score: 9
+dsize 14: 1, candidate word: owest, score: 10
+dsize 15: 4, candidate word: lilac, score: 7
+dsize 16: 2, candidate word: hexed, score: 9
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 10, candidate word: prows, score: 7.7
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 10, candidate word: leers, score: 7.7
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 34, candidate word: kelps, score: 6.5
+dsize 23: 2, candidate word: sodas, score: 9
+dsize 24: 3, candidate word: seder, score: 8.66667
+dsize 25: 4, candidate word: spine, score: 8
+dsize 26: 6, candidate word: bulgy, score: 7.33333
+dsize 27: 6, candidate word: debar, score: 7
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 30, candidate word: lowed, score: 6.96667
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 4, candidate word: quals, score: 8.5
+NEW GUESS! select_guess took: 0.000209 us
+guess 10: owest
+i = 0, get_feedback took: 0.000006 us
+i = 0, reduce_dataset took: 0.000010 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000017 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000002 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000002 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000005 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 14, get_feedback took: 0.000001 us
+i = 14, reduce_dataset took: 0.000000 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000002 us
+i = 16, get_feedback took: 0.000001 us
+i = 16, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000000 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000016 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000003 us
+i = 21, get_feedback took: 0.000000 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000023 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000002 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000002 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000002 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000002 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000000 us
+i = 29, reduce_dataset took: 0.000007 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000002 us
+dsize 0: 28, candidate word: lakes, score: 6.96429
+dsize 1: 4, candidate word: poufs, score: 7.5
+dsize 3: 2, candidate word: cycle, score: 7
+dsize 6: 3, candidate word: doser, score: 8.66667
+dsize 10: 5, candidate word: giber, score: 7.4
+dsize 11: 2, candidate word: flees, score: 8.5
+dsize 13: 2, candidate word: trait, score: 9
+dsize 15: 4, candidate word: lilac, score: 7
+dsize 16: 1, candidate word: hewed, score: 10
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 3, candidate word: crows, score: 8.66667
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 9, candidate word: leers, score: 7.88889
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 15, candidate word: delis, score: 6.6
+dsize 23: 2, candidate word: sodas, score: 9
+dsize 24: 2, candidate word: sever, score: 9
+dsize 25: 2, candidate word: spend, score: 8.5
+dsize 26: 6, candidate word: bulgy, score: 7.33333
+dsize 27: 6, candidate word: rebar, score: 7
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 9, candidate word: lowed, score: 8.11111
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 4, candidate word: quals, score: 8.5
+NEW GUESS! select_guess took: 0.000224 us
+guess 11: hewed
+i = 0, get_feedback took: 0.000006 us
+i = 0, reduce_dataset took: 0.000008 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000002 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000002 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000001 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000002 us
+i = 16, get_feedback took: 0.000000 us
+i = 16, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000003 us
+i = 21, get_feedback took: 0.000000 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000004 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000002 us
+i = 24, get_feedback took: 0.000000 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000023 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000003 us
+i = 27, get_feedback took: 0.000000 us
+i = 27, reduce_dataset took: 0.000003 us
+i = 28, get_feedback took: 0.000000 us
+i = 28, reduce_dataset took: 0.000015 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000002 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 22, candidate word: lakes, score: 7.04545
+dsize 1: 4, candidate word: poufs, score: 7.5
+dsize 3: 2, candidate word: pyxie, score: 7
+dsize 6: 2, candidate word: loser, score: 9
+dsize 10: 1, candidate word: edger, score: 10
+dsize 11: 2, candidate word: flees, score: 8.5
+dsize 13: 2, candidate word: tract, score: 9
+dsize 15: 4, candidate word: lilac, score: 7
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 3, candidate word: brows, score: 8.66667
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 8, candidate word: leers, score: 8
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 11, candidate word: ceils, score: 6.72727
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 4, candidate word: bulgy, score: 8
+dsize 27: 4, candidate word: relax, score: 7.5
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 5, candidate word: lowed, score: 8.6
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 2, candidate word: quals, score: 9
+NEW GUESS! select_guess took: 0.000176 us
+guess 12: edger
+i = 0, get_feedback took: 0.000009 us
+i = 0, reduce_dataset took: 0.000006 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000002 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000001 us
+i = 10, get_feedback took: 0.000001 us
+i = 10, reduce_dataset took: 0.000001 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000002 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000003 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000000 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000002 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000000 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000002 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 22, candidate word: lakes, score: 7.04545
+dsize 1: 4, candidate word: poufs, score: 7.5
+dsize 3: 2, candidate word: pyxie, score: 7
+dsize 6: 2, candidate word: loser, score: 9
+dsize 11: 1, candidate word: flees, score: 10
+dsize 13: 2, candidate word: trait, score: 9
+dsize 15: 4, candidate word: lilac, score: 7
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 3, candidate word: prows, score: 8.66667
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 8, candidate word: leers, score: 8
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 11, candidate word: ceils, score: 6.72727
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 2, candidate word: relax, score: 8
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 5, candidate word: bowed, score: 8.6
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 2, candidate word: quais, score: 9
+NEW GUESS! select_guess took: 0.000169 us
+guess 13: flees
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000006 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000002 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000001 us
+i = 11, get_feedback took: 0.000001 us
+i = 11, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000000 us
+i = 13, reduce_dataset took: 0.000002 us
+i = 15, get_feedback took: 0.000000 us
+i = 15, reduce_dataset took: 0.000002 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000000 us
+i = 20, reduce_dataset took: 0.000003 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000000 us
+i = 22, reduce_dataset took: 0.000004 us
+i = 23, get_feedback took: 0.000000 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000000 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000002 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000000 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 9, candidate word: capes, score: 7.44444
+dsize 1: 1, candidate word: fouls, score: 10
+dsize 3: 1, candidate word: pyxie, score: 10
+dsize 6: 1, candidate word: poser, score: 10
+dsize 13: 2, candidate word: tract, score: 9
+dsize 15: 2, candidate word: axial, score: 7.5
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 3, candidate word: prows, score: 8.66667
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 5, candidate word: beers, score: 8.2
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 3, candidate word: pecks, score: 8
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 4, candidate word: cowed, score: 8.75
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000142 us
+guess 14: fouls
+i = 0, get_feedback took: 0.000006 us
+i = 0, reduce_dataset took: 0.000003 us
+i = 1, get_feedback took: 0.000001 us
+i = 1, reduce_dataset took: 0.000001 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000000 us
+i = 6, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000000 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000002 us
+i = 30, get_feedback took: 0.000000 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 9, candidate word: cakes, score: 7.44444
+dsize 3: 1, candidate word: pyxie, score: 10
+dsize 6: 1, candidate word: poser, score: 10
+dsize 13: 2, candidate word: trait, score: 9
+dsize 15: 2, candidate word: lilac, score: 7.5
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 3, candidate word: prows, score: 8.66667
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 5, candidate word: peers, score: 8.2
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 3, candidate word: pecks, score: 8
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 4, candidate word: bowed, score: 8.75
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000141 us
+guess 15: pyxie
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000003 us
+i = 3, get_feedback took: 0.000001 us
+i = 3, reduce_dataset took: 0.000001 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000000 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000002 us
+i = 15, get_feedback took: 0.000000 us
+i = 15, reduce_dataset took: 0.000002 us
+i = 17, get_feedback took: 0.000000 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000000 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000000 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000000 us
+i = 29, reduce_dataset took: 0.000002 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000000 us
+dsize 0: 5, candidate word: bakes, score: 8.2
+dsize 6: 1, candidate word: poser, score: 10
+dsize 13: 1, candidate word: tract, score: 10
+dsize 15: 1, candidate word: axial, score: 10
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 2, candidate word: brows, score: 9
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 4, candidate word: bowed, score: 8.75
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000133 us
+guess 16: poser
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000002 us
+i = 6, get_feedback took: 0.000001 us
+i = 6, reduce_dataset took: 0.000001 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000000 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000000 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000000 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000000 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 5, candidate word: bakes, score: 8.2
+dsize 13: 1, candidate word: tract, score: 10
+dsize 15: 1, candidate word: axial, score: 10
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 2, candidate word: crows, score: 9
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 4, candidate word: cowed, score: 8.75
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000119 us
+guess 17: tract
+i = 0, get_feedback took: 0.000005 us
+i = 0, reduce_dataset took: 0.000003 us
+i = 13, get_feedback took: 0.000001 us
+i = 13, reduce_dataset took: 0.000001 us
+i = 15, get_feedback took: 0.000000 us
+i = 15, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000000 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000000 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000000 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000000 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000002 us
+i = 30, get_feedback took: 0.000000 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 3, candidate word: bakes, score: 9
+dsize 15: 1, candidate word: axial, score: 10
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 1, candidate word: crows, score: 10
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 3, candidate word: bowed, score: 9
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000151 us
+guess 18: axial
+i = 0, get_feedback took: 0.000007 us
+i = 0, reduce_dataset took: 0.000002 us
+i = 15, get_feedback took: 0.000001 us
+i = 15, reduce_dataset took: 0.000001 us
+i = 17, get_feedback took: 0.000000 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000000 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000000 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000000 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000000 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000000 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 3, candidate word: bakes, score: 9
+dsize 17: 1, candidate word: karma, score: 10
+dsize 18: 1, candidate word: crows, score: 10
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 3, candidate word: bowed, score: 9
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000144 us
+guess 19: karma
+i = 0, get_feedback took: 0.000006 us
+i = 0, reduce_dataset took: 0.000002 us
+i = 17, get_feedback took: 0.000001 us
+i = 17, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000000 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000014 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000000 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000000 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000000 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 0: 1, candidate word: babes, score: 10
+dsize 18: 1, candidate word: crows, score: 10
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 3, candidate word: bowed, score: 9
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000110 us
+guess 20: babes
+i = 0, get_feedback took: 0.000005 us
+i = 0, reduce_dataset took: 0.000001 us
+i = 18, get_feedback took: 0.000001 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000000 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000000 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000014 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000000 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 18: 1, candidate word: crows, score: 10
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000120 us
+guess 21: crows
+i = 18, get_feedback took: 0.000006 us
+i = 18, reduce_dataset took: 0.000001 us
+i = 19, get_feedback took: 0.000001 us
+i = 19, reduce_dataset took: 0.000001 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000000 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000014 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000000 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000015 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 19: 1, candidate word: pagan, score: 10
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000096 us
+guess 22: pagan
+i = 19, get_feedback took: 0.000007 us
+i = 19, reduce_dataset took: 0.000006 us
+i = 20, get_feedback took: 0.000001 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000000 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000015 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000000 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000000 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000000 us
+dsize 20: 1, candidate word: peers, score: 10
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000089 us
+guess 23: peers
+i = 20, get_feedback took: 0.000006 us
+i = 20, reduce_dataset took: 0.000001 us
+i = 21, get_feedback took: 0.000001 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000000 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000014 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000000 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 21: 1, candidate word: rusty, score: 10
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000083 us
+guess 24: rusty
+i = 21, get_feedback took: 0.000010 us
+i = 21, reduce_dataset took: 0.000001 us
+i = 22, get_feedback took: 0.000001 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000014 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000000 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000000 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 22: 1, candidate word: pecks, score: 10
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000075 us
+guess 25: pecks
+i = 22, get_feedback took: 0.000005 us
+i = 22, reduce_dataset took: 0.000001 us
+i = 23, get_feedback took: 0.000001 us
+i = 23, reduce_dataset took: 0.000001 us
+i = 24, get_feedback took: 0.000000 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000000 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000014 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000000 us
+dsize 23: 1, candidate word: sofas, score: 10
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000069 us
+guess 26: sofas
+i = 23, get_feedback took: 0.000006 us
+i = 23, reduce_dataset took: 0.000000 us
+i = 24, get_feedback took: 0.000001 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000001 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000000 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000000 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000015 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000000 us
+dsize 24: 1, candidate word: seder, score: 10
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000061 us
+guess 27: seder
+i = 24, get_feedback took: 0.000007 us
+i = 24, reduce_dataset took: 0.000001 us
+i = 25, get_feedback took: 0.000000 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000000 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000015 us
+i = 30, get_feedback took: 0.000000 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 25: 1, candidate word: spend, score: 10
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000062 us
+guess 28: spend
+i = 25, get_feedback took: 0.000006 us
+i = 25, reduce_dataset took: 0.000001 us
+i = 26, get_feedback took: 0.000001 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000001 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000000 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000014 us
+dsize 26: 1, candidate word: buggy, score: 10
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000056 us
+guess 29: buggy
+i = 26, get_feedback took: 0.000006 us
+i = 26, reduce_dataset took: 0.000001 us
+i = 27, get_feedback took: 0.000000 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000000 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 27: 1, candidate word: recap, score: 10
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000061 us
+guess 30: recap
+i = 27, get_feedback took: 0.000022 us
+i = 27, reduce_dataset took: 0.000001 us
+i = 28, get_feedback took: 0.000001 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000000 us
+i = 29, reduce_dataset took: 0.000002 us
+i = 30, get_feedback took: 0.000000 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 28: 1, candidate word: golem, score: 10
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000053 us
+guess 31: golem
+i = 28, get_feedback took: 0.000006 us
+i = 28, reduce_dataset took: 0.000001 us
+i = 29, get_feedback took: 0.000001 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 30: 1, candidate word: essay, score: 10
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000020 us
+guess 32: essay
+i = 29, get_feedback took: 0.000007 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 30, get_feedback took: 0.000001 us
+i = 30, reduce_dataset took: 0.000000 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 29: 2, candidate word: vowed, score: 9.5
+dsize 31: 1, candidate word: quals, score: 10
+NEW GUESS! select_guess took: 0.000015 us
+guess 33: quals
+i = 29, get_feedback took: 0.000007 us
+i = 29, reduce_dataset took: 0.000001 us
+i = 31, get_feedback took: 0.000001 us
+i = 31, reduce_dataset took: 0.000001 us
+dsize 29: 2, candidate word: vowed, score: 9.5
+NEW GUESS! select_guess took: 0.000013 us
+guess 34: vowed
+i = 29, get_feedback took: 0.000007 us
+Trial 0 solved with 34 guesses, in 0.087711 seconds
