@@ -240,13 +240,7 @@ string select_guess() {
     // string board_guesses[NWORDLES];
     // int board_guess_scores[NWORDLES];
 
-    // initialize the table to hold letter counts
-    int letter_tally_table[26][5];
-    for (int i = 0; i < 26; i++) {
-        for (int j = 0; j < 5; j++) {
-            letter_tally_table[i][j] = 0;
-        }
-    }
+    
 
     #pragma omp parallel for default(shared) shared(letter_tally_table) schedule(dynamic)
     for (int board_idx = 0; board_idx < NWORDLES; board_idx++) { //for each board
@@ -254,6 +248,14 @@ string select_guess() {
             // board_guesses[board_idx] = (string)("flarb");
             // board_guess_scores[board_idx] = -1;
             continue; // ignore solved boards
+        }
+
+        // initialize the table to hold letter counts
+        int letter_tally_table[26][5];
+        for (int i = 0; i < 26; i++) {
+            for (int j = 0; j < 5; j++) {
+                letter_tally_table[i][j] = 0;
+            }
         }
 
         for (auto word_ptr = datasets[board_idx].begin(); word_ptr != datasets[board_idx].end(); word_ptr++) { //for each word
@@ -266,7 +268,7 @@ string select_guess() {
                 letter_tally_table[alphabet_idx][letter_idx] += 1;
             }
         }
-
+        
     }
 
     // cout << "letter tally_table: " << letter_tally_table[0][0] << endl;
