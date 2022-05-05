@@ -6,7 +6,6 @@
 #include <chrono>
 #include <vector>
 #include <omp.h>
-#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -241,7 +240,7 @@ string select_guess() {
     // int board_guess_scores[NWORDLES];
 
     // initialize the table to hold letter counts
-    int letter_tally_table[26][5];
+    double letter_tally_table[26][5];
     for (int i = 0; i < 26; i++) {
         for (int j = 0; j < 5; j++) {
             letter_tally_table[i][j] = 0;
@@ -263,7 +262,7 @@ string select_guess() {
                 //increment letter's counter in scoring table
                 int alphabet_idx = (int)(word[letter_idx] - 'a');
                 #pragma omp atomic update
-                letter_tally_table[alphabet_idx][letter_idx] += 1;
+                letter_tally_table[alphabet_idx][letter_idx] += ((DESIRED_DATASET_SIZE/datasets[board_idx].size())/100.0);
             }
         }
     }
@@ -272,7 +271,7 @@ string select_guess() {
 
     // #pragma omp barrier
 
-    int max_score = -1;
+    double max_score = -1;
     vector<string> best_guesses;
     #pragma omp parallel for default(shared) shared(best_guesses, max_score) schedule(dynamic)
     for (int board_idx = 0; board_idx < NWORDLES; board_idx++) { //for each board
@@ -286,7 +285,7 @@ string select_guess() {
 
         for (auto word_ptr = datasets[board_idx].begin(); word_ptr != datasets[board_idx].end(); word_ptr++) { //for each word
             string word = *word_ptr;
-            int word_score = 0;
+            double word_score = 0;
             bool letter_tallied[5] = {false, false, false, false, false};
 
             for (int letter_idx = 0; letter_idx < word.length(); letter_idx++) { //for each letter in word
@@ -296,10 +295,10 @@ string select_guess() {
                 //look up letter's counts in the scoring table
                 for (int i = 0; i < word.length(); i++) { // for each index of that letter in the letter_tally_table
                     if (word[i] == letter) {
-                        word_score += 3*letter_tally_table[alphabet_idx][i]; // double weighted when index matches
+                        word_score += 2.0*letter_tally_table[alphabet_idx][i]; // double weighted when index matches
                         letter_tallied[i] = true;
                     }
-                    else word_score += 1*letter_tally_table[alphabet_idx][i]; // (word[i] != letter)
+                    else word_score += 1.0*letter_tally_table[alphabet_idx][i]; // (word[i] != letter)
                 }
             }
             word_score = (double)word_score / (double)(board_dataset_size);
