@@ -6,13 +6,14 @@
 #include <chrono>
 #include <vector>
 #include <omp.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-#define NUM_TRIALS 50
+#define NUM_TRIALS 10
 
-#define DESIRED_DATASET_SIZE 5757
-// #define DATA_SET_SIZE 1000
+#define DESIRED_DATASET_SIZE 500000
+// #define DATA_SET_SIZE 5757
 
 #define MAX_GUESSES 50
 #define NWORDLES 32
@@ -20,7 +21,7 @@ using namespace std;
 #define YELLOW 1
 #define GREEN 2
 
-#define NUM_THREADS 8
+#define NUM_THREADS 32
 
 /* Global variables */
 set<string> dictionary;
@@ -54,7 +55,7 @@ void init_data() {
     while (getline(input_file, line)){
         dictionary.insert(line);
     }
-    cout << "Datasetsize: " << dictionary.size() << endl;
+    cout << "Dataset Size: " << dictionary.size() << endl;
 
     int data_set_size = dictionary.size();
     
@@ -65,14 +66,23 @@ void init_data() {
             int rand_idx = rand() % 26;
             char rand_char = 'a' + rand_idx;
             new_word_buf[i] = rand_char;
+            // cout << "rand char: " << rand_char << endl;
         }
-        string new_word = (string)new_word_buf;
-        if (dictionary.find(new_word) != dictionary.end()) {
+        string new_word(new_word_buf);
+        // cout << "NEW WORD: " << new_word << endl;
+        if (dictionary.find(new_word) == dictionary.end()) {
             // word not already in dataset
-            dictionary.insert((string)new_word);
+            dictionary.insert(new_word);
             data_set_size++;
+            // cout << "added to dataset" << endl;
+            // cout << "New word: " << new_word << endl;
+        }
+        else {
+            // cout << "Word was already in dataset: " << new_word << endl;
         }
     }
+
+    cout << "Inflated Dataset Size: " << dictionary.size() << endl;
 }
 
 /* Get feedback on a wordle guess (green/yellow/black) by comparing it to goal word */

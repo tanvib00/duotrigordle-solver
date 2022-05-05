@@ -8,9 +8,12 @@
 
 using namespace std;
 
-#define NUM_TRIALS 100
+#define NUM_TRIALS 10
 
-#define MAX_GUESSES 40
+#define DESIRED_DATASET_SIZE 500000
+// #define DATA_SET_SIZE 5757
+
+#define MAX_GUESSES 50
 #define NWORDLES 32
 #define BLACK 0
 #define YELLOW 1
@@ -32,6 +35,7 @@ auto select_random(const S &s, size_t n) {
     return it;
 }
 
+
 /* Set up the game dictionary */
 void init_data() {
     // read in word data set
@@ -48,6 +52,36 @@ void init_data() {
     while (getline(input_file, line)){
         dictionary.insert(line);
     }
+    cout << "Dataset Size: " << dictionary.size() << endl;
+
+    int data_set_size = dictionary.size();
+    
+    while(data_set_size < DESIRED_DATASET_SIZE) {
+        // add a nonsense word to the dataset
+        char new_word_buf[5];
+        for (int i = 0; i < 5; i++) {
+            int rand_idx = rand() % 26;
+            char rand_char = 'a' + rand_idx;
+            new_word_buf[i] = rand_char;
+            // cout << "rand char: " << rand_char << endl;
+        }
+        string new_word(new_word_buf);
+        // cout << "NEW WORD: " << new_word << endl;
+        if (dictionary.find(new_word) == dictionary.end()) {
+            // word not already in dataset
+            dictionary.insert(new_word);
+            data_set_size++;
+            // cout << "added to dataset" << endl;
+            // cout << "New word: " << new_word << endl;
+        }
+        else {
+            // cout << "Word was already in dataset: " << new_word << endl;
+        }
+    }
+
+
+    // TODO: maybe we should save the new dataset to be used against other versions?
+    cout << "Inflated Dataset Size: " << dictionary.size() << endl;
 }
 
 /* Get feedback on a wordle guess (green/yellow/black) by comparing it to goal word */
