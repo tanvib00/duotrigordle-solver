@@ -11,6 +11,9 @@ using namespace std;
 
 #define NUM_TRIALS 50
 
+#define DESIRED_DATASET_SIZE 5757
+// #define DATA_SET_SIZE 1000
+
 #define MAX_GUESSES 50
 #define NWORDLES 32
 #define BLACK 0
@@ -50,6 +53,25 @@ void init_data() {
 
     while (getline(input_file, line)){
         dictionary.insert(line);
+    }
+    cout << "Datasetsize: " << dictionary.size() << endl;
+
+    int data_set_size = dictionary.size();
+    
+    while(data_set_size < DESIRED_DATASET_SIZE) {
+        // add a nonsense word to the dataset
+        char new_word_buf[5];
+        for (int i = 0; i < 5; i++) {
+            int rand_idx = rand() % 26;
+            char rand_char = 'a' + rand_idx;
+            new_word_buf[i] = rand_char;
+        }
+        string new_word = (string)new_word_buf;
+        if (dictionary.find(new_word) != dictionary.end()) {
+            // word not already in dataset
+            dictionary.insert((string)new_word);
+            data_set_size++;
+        }
     }
 }
 
