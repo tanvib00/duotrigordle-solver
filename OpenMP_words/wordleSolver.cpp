@@ -6,14 +6,13 @@
 #include <chrono>
 #include <vector>
 #include <omp.h>
-#include <bits/stdc++.h>
 
 using namespace std;
 
 #define NUM_TRIALS 10
 
-//#define DESIRED_DATASET_SIZE 10000
-#define DESIRED_DATASET_SIZE 5757
+#define DESIRED_DATASET_SIZE 500000
+// #define DESIRED_DATASET_SIZE 5757
 
 #define MAX_GUESSES 50
 #define NWORDLES 32
@@ -21,7 +20,7 @@ using namespace std;
 #define YELLOW 1
 #define GREEN 2
 
-#define NUM_THREADS 16
+#define NUM_THREADS 8
 
 /* Global variables */
 set<string> dictionary;
@@ -55,7 +54,7 @@ void init_data() {
     while (getline(input_file, line)){
         dictionary.insert(line);
     }
-    // cout << "Dataset Size: " << dictionary.size() << endl;
+    cout << "Dataset Size: " << dictionary.size() << endl;
 
     int data_set_size = dictionary.size();
     
@@ -237,42 +236,74 @@ void reduce_dataset(int wnum, string guess, int *wordResult) {
 string select_guess() {
     // check all datasets and pick one
     // for now, just selects first guess from listS of possible next guesses
-    string board_guesses[NWORDLES];
-    double board_guess_scores[NWORDLES];
+    // string board_guesses[NWORDLES];
+    // int board_guess_scores[NWORDLES];
 
-    
+    // initialize the table to hold letter counts
+    double letter_tally_table[26][5];
+    for (int i = 0; i < 26; i++) {
+        for (int j = 0; j < 5; j++) {
+            letter_tally_table[i][j] = 0;
+        }
+    }
 
-    #pragma omp parallel for default(shared) schedule(dynamic)
+    // #pragma omp parallel for default(shared) shared(letter_tally_table) schedule(dynamic)
     for (int board_idx = 0; board_idx < NWORDLES; board_idx++) { //for each board
         if (solved[board_idx]) {
-            board_guesses[board_idx] = (string)("flarb");
-            board_guess_scores[board_idx] = -1;
+            // board_guesses[board_idx] = (string)("flarb");
+            // board_guess_scores[board_idx] = -1;
             continue; // ignore solved boards
         }
 
-        // initialize the table to hold letter counts
-        int letter_tally_table[26][5];
-        for (int i = 0; i < 26; i++) {
-            for (int j = 0; j < 5; j++) {
-                letter_tally_table[i][j] = 0;
+        // parallelizing over dataset of a particular wordle
+        // #pragma omp parallel {
+        // for (std::set<string>::const_iterator i = datasets[board_idx].begin(); i != datasets[board_idx].end(); ++i) {
+        //     #pragma omp single nowait {
+        //         operate(*i);
+        //     }
+        // }
+        auto word_ptr = datasets[board_idx].begin();
+        int i = 0;
+        #pragma omp parallel default(shared) shared(letter_tally_table)
+        while (i < datasets[board_idx].size()) {
+        //for (set<string>::iterator word_ptr = datasets[board_idx].begin(); word_ptr != datasets[board_idx].end(); ++word_ptr) {
+        //for (auto word_ptr = datasets[board_idx].begin(); word_ptr != datasets[board_idx].end(); word_ptr++) { //for each word
+            #pragma omp single nowait 
+            {
+                //auto word_ptr = i;
+                string word = *word_ptr;
+
+                for (int letter_idx = 0; letter_idx < word.length(); letter_idx++) { //for each letter
+                    //increment letter's counter in scoring table
+                    int alphabet_idx = (int)(word[letter_idx] - 'a');
+                    #pragma omp atomic
+                    letter_tally_table[alphabet_idx][letter_idx] += ((DESIRED_DATASET_SIZE/datasets[board_idx].size())/100.0);
+                }
             }
-        }
 
-        for (auto word_ptr = datasets[board_idx].begin(); word_ptr != datasets[board_idx].end(); word_ptr++) { //for each word
-            string word = *word_ptr;
 
-            for (int letter_idx = 0; letter_idx < word.length(); letter_idx++) { //for each letter
-                //increment letter's counter in scoring table
-                int alphabet_idx = (int)(word[letter_idx] - 'a');
-                letter_tally_table[alphabet_idx][letter_idx] += 1;
+            if (word_ptr != datasets[board_idx].end()) {
+                word_ptr++;
             }
+            else break;
+            i++;
         }
+        //printf("%d\n", datasets[board_idx].size());
+    }
 
-        // #pragma omp critical
-        //     cout << "Letter tally table for board_idx: " << board_idx << "... " << letter_tally_table[0][0] << endl;
+    // cout << "letter tally_table: " << letter_tally_table[0][0] << endl;
 
-        double max_score = -1;
-        vector<string> best_guesses;
+    // #pragma omp barrier
+
+    double max_score = -1;
+    vector<string> best_guesses;
+    //#pragma omp parallel for default(shared) shared(best_guesses, max_score) schedule(dynamic)
+    for (int board_idx = 0; board_idx < NWORDLES; board_idx++) { //for each board
+        if (solved[board_idx]) {
+            // board_guesses[board_idx] = (string)("flarb");
+            // board_guess_scores[board_idx] = -1;
+            continue; // ignore solved boards
+        }
 
         int board_dataset_size = datasets[board_idx].size();
 
@@ -294,47 +325,56 @@ string select_guess() {
                     else word_score += 1.0*letter_tally_table[alphabet_idx][i]; // (word[i] != letter)
                 }
             }
-            word_score = (double)word_score / (double)(board_dataset_size);
-            if (word_score > max_score) {
-                max_score = word_score;
-                best_guesses.clear();
-                best_guesses.push_back(word);
-            }
-            else if (word_score == max_score) {
-                best_guesses.push_back(word); // some vector to store each best guess if there are multiple with same score
-            }
-        }
+            // word_score = (double)word_score / (double)(board_dataset_size);
 
-        if (best_guesses.size() > 1) { // TODO: probably don't need to do this check (can just select random from size 1 vector)
-            // select random from among best_guesses
-            int rand_idx = rand() % best_guesses.size();
-            board_guesses[board_idx] = best_guesses[rand_idx];
-            board_guess_scores[board_idx] = max_score;
-        }
-        else {
-            board_guesses[board_idx] = best_guesses[0];
-            board_guess_scores[board_idx] = max_score;
+            #pragma omp critical(updateMaxValue)
+            {
+                if (word_score > max_score) {
+                    max_score = word_score;
+                    best_guesses.clear();
+                    best_guesses.push_back(word);
+                }
+                else if (word_score == max_score) {
+                    best_guesses.push_back(word); // some vector to store each best guess if there are multiple with same score
+                }
+            }
+                
         }
     }
 
-    double overall_max_score = -1;
-    string overall_best_guess;
-
-    for (int board_idx = 0; board_idx < NWORDLES; board_idx++) {
-        if (solved[board_idx]) continue;
-        // cout << "board: " << board_idx << " best guess: " << board_guesses[board_idx] << ", score = " << board_guess_scores[board_idx] << endl;
-        string candidate_word = board_guesses[board_idx];
-        double score = board_guess_scores[board_idx];
-        if (score > overall_max_score) {
-            overall_max_score = score;
-            overall_best_guess = candidate_word;
-        }
-        if (NUM_TRIALS == 1) {
-            // cout << "dsize " << board_idx << ": " << datasets[board_idx].size() << ", ";
-            // cout << "candidate word: " << candidate_word << ", score: " << score << endl;
-        }
+    if (best_guesses.size() > 1) { // TODO: probably don't need to do this check (can just select random from size 1 vector)
+        // select random from among best_guesses
+        chrono::microseconds us = chrono::duration_cast< chrono::microseconds >(
+        chrono::system_clock::now().time_since_epoch());
+        srand(static_cast<unsigned int>(us.count()));
+        int rand_idx = rand() % best_guesses.size();
+        // cout << "rand Best Guess: " << best_guesses[rand_idx] << endl;
+        return best_guesses[rand_idx];
     }
-    return overall_best_guess;
+    else {
+        // cout << "Best Guess: " << best_guesses[0] << endl;
+        return best_guesses[0];
+    }
+
+    // double overall_max_score = -1;
+    // string overall_best_guess;
+
+    // for (int board_idx = 0; board_idx < NWORDLES; board_idx++) {
+    //     if (solved[board_idx]) continue;
+
+    //     string candidate_word = board_guesses[board_idx];
+    //     int raw_score = board_guess_scores[board_idx];
+    //     double score = (double)raw_score / (double)(datasets[board_idx].size());
+    //     if (score > overall_max_score) {
+    //         overall_max_score = score;
+    //         overall_best_guess = candidate_word;
+    //     }
+    //     if (NUM_TRIALS == 1) {
+    //         cout << "dsize " << board_idx << ": " << datasets[board_idx].size() << ", ";
+    //         cout << "candidate word: " << candidate_word << ", score: " << score << endl;
+    //     }
+    // }
+    return (string)"flarb";
 }
 
 /* Run the game */

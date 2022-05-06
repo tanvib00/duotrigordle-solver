@@ -10,8 +10,8 @@ using namespace std;
 
 #define NUM_TRIALS 10
 
-#define DESIRED_DATASET_SIZE 500000
-// #define DATA_SET_SIZE 5757
+//#define DESIRED_DATASET_SIZE 10000
+#define DESIRED_DATASET_SIZE 5757
 
 #define MAX_GUESSES 50
 #define NWORDLES 32
@@ -238,20 +238,19 @@ string select_guess() {
     // for now, just selects first guess from listS of possible next guesses
     string board_guesses[NWORDLES];
     int board_guess_scores[NWORDLES];
+
+    // global tally table
+    // initialize the table to hold letter counts
+    double letter_tally_table[26][5];
+    for (int i = 0; i < 26; i++) {
+        for (int j = 0; j < 5; j++) {
+            letter_tally_table[i][j] = 0;
+        }
+    }
     
     for (int board_idx = 0; board_idx < NWORDLES; board_idx++) { //for each board
         if (solved[board_idx]) {
-            board_guesses[board_idx] = (string)("flarb");
-            board_guess_scores[board_idx] = -1;
             continue; // ignore solved boards
-        }
-
-        // initialize the table to hold letter counts
-        int letter_tally_table[26][5];
-        for (int i = 0; i < 26; i++) {
-            for (int j = 0; j < 5; j++) {
-                letter_tally_table[i][j] = 0;
-            }
         }
         
         for (auto word_ptr = datasets[board_idx].begin(); word_ptr != datasets[board_idx].end(); word_ptr++) { //for each word
@@ -260,16 +259,21 @@ string select_guess() {
             for (int letter_idx = 0; letter_idx < word.length(); letter_idx++) { //for each letter
                 //increment letter's counter in scoring table
                 int alphabet_idx = (int)(word[letter_idx] - 'a');
-                letter_tally_table[alphabet_idx][letter_idx] += 1;
+                letter_tally_table[alphabet_idx][letter_idx] += ((DESIRED_DATASET_SIZE/datasets[board_idx].size())/100.0);
             }
         }
+    }
 
-        int max_score = -1;
-        vector<string> best_guesses;
+    double max_score = -1;
+    vector<string> best_guesses;
+    for (int board_idx = 0; board_idx < NWORDLES; board_idx++) { //for each board (loop through again)
 
+        if (solved[board_idx]) {
+            continue; // ignore solved boards
+        }
         for (auto word_ptr = datasets[board_idx].begin(); word_ptr != datasets[board_idx].end(); word_ptr++) { //for each word
             string word = *word_ptr;
-            int word_score = 0;
+            double word_score = 0;
             bool letter_tallied[5] = {false, false, false, false, false};
 
             for (int letter_idx = 0; letter_idx < word.length(); letter_idx++) { //for each letter in word
@@ -279,10 +283,10 @@ string select_guess() {
                 //look up letter's counts in the scoring table
                 for (int i = 0; i < word.length(); i++) { // for each index of that letter in the letter_tally_table
                     if (word[i] == letter) {
-                        word_score += 2 * letter_tally_table[alphabet_idx][i]; // double weighted when index matches
+                        word_score += (2.0 * letter_tally_table[alphabet_idx][i]); // double weighted when index matches
                         letter_tallied[i] = true;
                     }
-                    else word_score += letter_tally_table[alphabet_idx][i]; // (word[i] != letter)
+                    else word_score += (1.0 * letter_tally_table[alphabet_idx][i]); // (word[i] != letter)
                 }
             }
             if (word_score > max_score) {
@@ -294,41 +298,18 @@ string select_guess() {
                 best_guesses.push_back(word); // some vector to store each best guess if there are multiple with same score
             }
         }
-
-        if (best_guesses.size() > 1) { // TODO: probably don't need to do this check (can just select random from size 1 vector)
-            // select random from among best_guesses
-            chrono::microseconds us = chrono::duration_cast< chrono::microseconds >(
-            chrono::system_clock::now().time_since_epoch());
-            srand(static_cast<unsigned int>(us.count()));
-            int rand_idx = rand() % best_guesses.size();
-            board_guesses[board_idx] = best_guesses[rand_idx];
-            board_guess_scores[board_idx] = max_score;
-        }
-        else {
-            board_guesses[board_idx] = best_guesses[0];
-            board_guess_scores[board_idx] = max_score;
-        }
     }
 
-    double overall_max_score = -1;
-    string overall_best_guess;
-
-    for (int board_idx = 0; board_idx < NWORDLES; board_idx++) {
-        if (solved[board_idx]) continue;
-        
-        string candidate_word = board_guesses[board_idx];
-        int raw_score = board_guess_scores[board_idx];
-        double score = (double)raw_score / (double)(datasets[board_idx].size());
-        if (score > overall_max_score) {
-            overall_max_score = score;
-            overall_best_guess = candidate_word;
-        }
-        if (NUM_TRIALS == 1) { 
-            cout << "dsize " << board_idx << ": " << datasets[board_idx].size() << ", ";
-            cout << "candidate word: " << candidate_word << ", score: " << score << endl;
-        }
+    if (best_guesses.size() > 1) { // TODO: probably don't need to do this check (can just select random from size 1 vector)
+        // select random from among best_guesses
+        chrono::microseconds us = chrono::duration_cast< chrono::microseconds >(
+        chrono::system_clock::now().time_since_epoch());
+        srand(static_cast<unsigned int>(us.count()));
+        int rand_idx = rand() % best_guesses.size();
+        return best_guesses[rand_idx];
     }
-    return overall_best_guess;
+
+    return best_guesses[0];
 }
 
 /* Run the game */

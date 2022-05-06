@@ -9,10 +9,10 @@
 
 using namespace std;
 
-#define NUM_TRIALS 10
+#define NUM_TRIALS 5
 
-#define DESIRED_DATASET_SIZE 500000
-// #define DATA_SET_SIZE 5757
+//#define DESIRED_DATASET_SIZE 10000
+#define DESIRED_DATASET_SIZE 5757
 
 #define MAX_GUESSES 50
 #define NWORDLES 32
@@ -20,7 +20,7 @@ using namespace std;
 #define YELLOW 1
 #define GREEN 2
 
-#define NUM_THREADS 32
+#define NUM_THREADS 16
 
 /* Global variables */
 set<string> dictionary;
@@ -250,8 +250,6 @@ string select_guess() {
     #pragma omp parallel for default(shared) shared(letter_tally_table) schedule(dynamic)
     for (int board_idx = 0; board_idx < NWORDLES; board_idx++) { //for each board
         if (solved[board_idx]) {
-            // board_guesses[board_idx] = (string)("flarb");
-            // board_guess_scores[board_idx] = -1;
             continue; // ignore solved boards
         }
 
@@ -261,7 +259,7 @@ string select_guess() {
             for (int letter_idx = 0; letter_idx < word.length(); letter_idx++) { //for each letter
                 //increment letter's counter in scoring table
                 int alphabet_idx = (int)(word[letter_idx] - 'a');
-                #pragma omp atomic update
+                #pragma omp atomic
                 letter_tally_table[alphabet_idx][letter_idx] += ((DESIRED_DATASET_SIZE/datasets[board_idx].size())/100.0);
             }
         }
@@ -301,7 +299,7 @@ string select_guess() {
                     else word_score += 1.0*letter_tally_table[alphabet_idx][i]; // (word[i] != letter)
                 }
             }
-            word_score = (double)word_score / (double)(board_dataset_size);
+            // word_score = (double)word_score / (double)(board_dataset_size);
 
             #pragma omp critical(updateMaxValue)
             {
