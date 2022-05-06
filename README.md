@@ -99,3 +99,8 @@ We plan to briefly demo our solver, which would demonstrate our sequential and p
  * List the issues that concern you the most. Are there any remaining unknowns (things you simply don't know how to solve, or resource you don't know how to get) or is it just a matter of coding and doing the work?
 
 As of now, it is just a matter of doing the work to get back on track to complete our project on time! 
+
+# FINAL SUBMISSION
+Please see the pdf document title Final Project Report.pdf
+
+
